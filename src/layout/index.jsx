@@ -10,7 +10,7 @@ export default ({ children }) => {
   return (
     <>
       <Helmet>
-        <meta name="description" content={config.siteDescription} />
+        <meta content={config.siteDescription} name="description" />
         <html lang="en" />
       </Helmet>
       <ThemeProvider theme={theme}>
